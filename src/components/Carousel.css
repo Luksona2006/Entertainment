@@ -1,0 +1,103 @@
+.slick-prev:before, .slick-next:before {
+    display: none;
+}
+
+.slick-dots li button:before {
+    border-radius: 50px;
+    color: rgb(90, 105, 143);
+    background: rgb(90, 105, 143);
+    width: 12px;
+    height: 12px;
+}
+
+.slick-dots li.slick-active button:before {
+    color: transparent;
+}
+
+.slick-dots li button:hover:before {
+    color: rgba(90, 105, 143, 0.2);
+}
+
+.slick-dots {
+    bottom: -36px;
+}
+
+.slick-dots li button {
+    font-size: 20px;
+}
+
+.slick-track {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+}
+
+.carouselImg {
+    width: 100%;
+}
+
+.carousel-wraper {
+    margin-bottom: 20px;
+}
+
+.carouselDiv {
+    position: relative;
+    cursor: pointer;
+}
+
+.carouselDivHover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.4s all ease-out;
+    border-radius: 8px;
+    background-color: rgba(1, 1, 1, 0.5);  
+    cursor: pointer;
+}
+
+.carousel-content {
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.carouselDescription {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.fav-img{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: none;
+    border: none;
+    border-radius: 50px;
+    padding: 0;
+}
+
+.carouselDiv h3 {
+    font-family: 'Outfit',sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.carouselDiv h4 {
+    font-family: 'Outfit',sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
