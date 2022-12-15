@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;700;800;900&display=swap');
 
-.card{
+.card {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -28,7 +28,7 @@
     transform: translate(-50%, -50%);
     transition: 0.4s all ease-out;
     border-radius: 8px;
-    background-color: rgba(1, 1, 1, 0.5);  
+    background-color: rgba(1, 1, 1, 0.5);
     cursor: pointer;
 }
 
@@ -37,12 +37,12 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
-.cardHover:hover{
+.cardHover:hover {
     opacity: 1;
-} 
+}
 
 .card button {
     width: 32px;
@@ -56,8 +56,8 @@
     z-index: 10;
 }
 
-.card span{
-    font-family: 'Outfit',sans-serif;
+.card span {
+    font-family: 'Outfit', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 13px;
@@ -68,7 +68,7 @@
 }
 
 .card h6 {
-    font-family: 'Outfit',sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -85,8 +85,9 @@
     border-radius: 50px;
 }
 
-.category, .description {
+.category,
+.description {
     display: flex;
     align-items: center;
-    gap:8px;
+    gap: 8px;
 }

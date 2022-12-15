@@ -43,7 +43,8 @@ input:focus {
     background: none;
 }
 
-.results, .resultFav {
+.results,
+.resultFav {
     width: 100%;
     display: flex;
     flex-direction: column;

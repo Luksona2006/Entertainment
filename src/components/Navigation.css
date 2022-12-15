@@ -90,9 +90,12 @@ nav {
         padding: 0 24px;
     }
 
-    nav, .navigation , .navLinks {
+    nav,
+    .navigation,
+    .navLinks {
         flex-direction: row;
     }
+
     nav {
         padding: 24px;
     }
@@ -102,7 +105,7 @@ nav {
         gap: 24px;
     }
 
-    .navigation .navLinks{
+    .navigation .navLinks {
         display: none;
     }
 }
@@ -113,6 +116,6 @@ nav {
     }
 
     nav {
-       border-radius: unset; 
+        border-radius: unset;
     }
 }
