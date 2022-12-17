@@ -13,12 +13,14 @@ const Marked = () => {
 
     function filterData(e) {
         let currentValue = e.currentTarget.value;
-        const filteredData = data.filter(el => {
-            if (currentValue === '') {
+        const filteredData = JSON.parse(localStorage.getItem('cards')).filter(el => {
+            if (currentValue === '' && el.marked === true) {
                 return el;
             }
             else {
-                return el.name.toLowerCase().includes(currentValue.toLowerCase());
+                if(el.marked === true) {
+                    return el.name.toLowerCase().includes(currentValue.toLowerCase())
+                }
             }
         })
 
