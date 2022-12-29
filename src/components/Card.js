@@ -45,6 +45,7 @@ function Card(props) {
             }
         }
         localStorage.setItem('cards', JSON.stringify(storageObj))
+        window.location.reload(true)
     }
 
     return (
